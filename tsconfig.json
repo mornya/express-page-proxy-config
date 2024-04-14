@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "moduleDetection": "force",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "esnext",
+      "esnext.asynciterable",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
+    "baseUrl": ".",
+    "outDir": "./dist/",
+    "jsx": "preserve",
+    "declaration": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "forceConsistentCasingInFileNames": true,
+    "verbatimModuleSyntax": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "incremental": true
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ],
+  "exclude": [
+    ".git",
+    ".idea",
+    ".vscode"
+  ]
+}

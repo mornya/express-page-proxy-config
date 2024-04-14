@@ -1,0 +1,26 @@
+# Ignoring git directories and files
+# For more about ignoring file informations,
+# See https://help.github.com/articles/ignoring-files/
+
+# local-only directories
+/dist
+/build
+/node_modules
+/tmp
+/.pnp
+/.scannerwork
+.DS_Store
+.eslintcache
+.pnp.js
+
+# Logs
+**/*.tsbuildinfo
+
+# Editor directories and files
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+**/*.iml
